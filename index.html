@@ -18,7 +18,7 @@
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i>
                                 Home
                             </a>
@@ -63,6 +63,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -709,7 +712,7 @@
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="img/testimonial1.jpg" alt="" class="testimonial__header">
+                                    <img src="img/testimonial1.jpg" alt="" class="testimonial__img">
 
                                     <div>
                                         <h3 class="testimonial__name">Sara Smith</h3>
@@ -726,14 +729,15 @@
                                 </div>
                             </div>
 
-                            <p class="testimonial__description">Some testimonial description here</p>
+                            <p class="testimonial__description">I get a good impression, I carry out my project
+                                 with all the possible quality and attention and support 24 hours a day.</p>
                         </div>
 
                         <!-- ================== TESTIMONIAL 2 ================== -->
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="img/testimonial2.jpg" alt="" class="testimonial__header">
+                                    <img src="img/testimonial2.webp" alt="" class="testimonial__img">
 
                                     <div>
                                         <h3 class="testimonial__name">Matt Robinson</h3>
@@ -750,14 +754,15 @@
                                 </div>
                             </div>
 
-                            <p class="testimonial__description">Some testimonial description here</p>
+                            <p class="testimonial__description">I get a good impression, I carry out my project
+                                 with all the possible quality and attention and support 24 hours a day.</p>
                         </div>
 
                         <!-- ================== TESTIMONIAL 3 ================== -->
                         <div class="testimonial__content swiper-slide">
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
-                                    <img src="img/testimonial3.jpg" alt="" class="testimonial__header">
+                                    <img src="img/testimonial3.jpeg" alt="" class="testimonial__img">
 
                                     <div>
                                         <h3 class="testimonial__name">Raul Harris</h3>
@@ -774,7 +779,8 @@
                                 </div>
                             </div>
 
-                            <p class="testimonial__description">Some testimonial description here</p>
+                            <p class="testimonial__description">I get a good impression, I carry out my project
+                                 with all the possible quality and attention and support 24 hours a day.</p>
                         </div>
                     </div>
 
@@ -784,7 +790,116 @@
             </section>
 
             <!-- ================== CONTACT ME ================== -->
+            <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">+91-98297-78167</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">E-Mail</h3>
+                                <span class="contact__subtitle">prerakl123@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Jaipur, Rajasthan, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">E-Mail</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Project</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </section>
         </main>
+        <!-- ================== FOOTER ================== -->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Prerak</h1>
+                        <span class="footer__subtitle">Front-end Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/profile.php?id=100078243038422" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-messenger"></i>
+                        </a>
+                        <a href="https://www.instagram.com/algo_messiah" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                        <a href="https://www.twitter.com/prerakl123" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; 2022. Prerak Lodha</p>
+            </div>
+        </footer>
+
+        <!-- ================== SCROLL TOP ================== -->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
         <script src="js/swiper-bundle.min.js"></script>
         <script src="js/main.js" charset="utf-8"></script>
     </body>
