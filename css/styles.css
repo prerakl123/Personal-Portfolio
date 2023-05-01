@@ -290,7 +290,7 @@ img {
 }
 
 .home__blob-img {
-    width: 170px;
+    width: 200px;
 }
 
 .home__data {
@@ -497,7 +497,7 @@ img {
 }
 
 .skills__html {
-    width: 90%;
+    width: 95%;
 }
 
 .skills__css {
@@ -505,19 +505,19 @@ img {
 }
 
 .skills__js {
-    width: 60%;
+    width: 75%;
 }
 
 .skills__react {
-    width: 85%;
+    width: 65%;
 }
 
 .skills__php {
-    width: 80%;
+    width: 10%;
 }
 
 .skills__node {
-    width: 70%;
+    width: 40%;
 }
 
 .skills__firebase {
@@ -529,15 +529,15 @@ img {
 }
 
 .skills__figma {
-    width: 90%;
+    width: 50%;
 }
 
 .skills__sketch {
-    width: 85%;
+    width: 25%;
 }
 
 .skills__photoshop {
-    width: 85%;
+    width: 65%;
 }
 
 .skills__close .skills__list {
@@ -736,7 +736,8 @@ img {
 }
 
 .portfolio__img {
-    width: 256px;
+    max-width: 200px;
+    max-height: 200px;
     border-radius: 0.5rem;
     justify-self: center;
 }
