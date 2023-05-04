@@ -124,6 +124,14 @@ img {
   height: auto;
 }
 
+input[type="submit"] {
+    border-width: 0;
+    font-weight: var(--font-medium);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    cursor: pointer;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
   padding: 2rem 0 4rem;
@@ -923,6 +931,14 @@ img {
     border: none;
     outline: none;
     padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+.contact_form__submit_btn {
+    background-color: var(--first-color-alt);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-weight: var(--font-medium);
 }
 
 /*==================== FOOTER ====================*/
