@@ -540,6 +540,22 @@ img {
     width: 65%;
 }
 
+.skills__c {
+    width: 60%;
+}
+
+.skills__cpp {
+    width: 70%;
+}
+
+.skills__java {
+    width: 40%;
+}
+
+.skills__shell {
+    width: 55%;
+}
+
 .skills__close .skills__list {
     height: 0;
     overflow: hidden;
